@@ -1,0 +1,939 @@
+@import "/css/style_main.css";
+@import "/css/media.css";
+
+
+/*------------------------------------ Hero Section ------------------------------------*/
+
+.C_heroSection {
+    height: 432px;
+    width: calc(100% - 100px);
+    background: url("../images/contact-images/contact_back.png") no-repeat center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.C_heroSecItems {
+    height: 100%;
+}
+
+.C_heroText {
+    gap: 40px;
+}
+
+.C_heroText h1 {
+    font-family: var(--font-SangBleuSunrise-Regular);
+    font-size: 54px;
+    margin: 0;
+    color: white;
+}
+
+.C_heroText p {
+    font-family: var(--font-DM-Sans);
+    color: var(--text-color);
+    color: white;
+}
+
+
+/*<---------------------------------- Contact Details Section --------------------------->*/
+
+.contactItem {
+    width: 20%;
+    height: 234px;
+}
+
+.contactItem .contactDetails {
+    width: 92%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.2);
+}
+
+.contactItem .contactDetails .contactIcon {
+    width: 100%;
+    height: 48%;
+}
+
+.contactItem .contactDetails .contactIcon .icon {
+    width: 68px;
+    height: 68px;
+}
+
+.contactItem:nth-child(2) .contactDetails .contactIcon .icon {
+    width: 58px;
+    height: 58px;
+}
+
+.contactItem .contactDetails .contactIcon .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.contactItem .contactDetails .contactText {
+    width: 100%;
+    height: 48%;
+}
+
+.contactItem .contactDetails .contactText h4 {
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-SangBleuSunrise-Regular);
+}
+
+.contactItem .contactDetails .contactText p {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-DM-Sans);
+}
+
+.contactItem .contactDetails .contactText h4{
+    color: var(--nav-text-color);
+}
+
+.contactItem .contactDetails .contactText p {
+    color: var(--text-color);
+}
+
+
+/*<---------------------------------------- Form Section -------------------------------->*/
+
+.formSec {
+    height: 755px;
+}
+
+
+.formSec .formRow {
+    height: 100%;
+    width: 1139px;
+    border-radius: 15px;
+}
+
+.formSec .formRow .formImgCol {
+    width: 52%;
+    height: 765px;
+}
+
+.formSec .formRow .formImgCol .formImg {
+    height: 98%;
+    width: 604px;
+    overflow: hidden;
+    border-radius: 15px 0 0 15px;
+
+}
+
+.formSec .formRow .formImgCol .formImg img {
+    height: 100%;
+    width: 100%;
+}
+
+.formSec .formRow .formFields {
+    height: 755px;
+    width: 47%;
+}
+
+.formSec .formRow .formFields .formCol {
+    width: 90%;
+}
+
+.formSec .formRow .formFields .formCol h1 {
+    font-size: 50px;
+    font-family: var(--font-SangBleuSunrise-Regular);
+    color: var(--nav-text-color);
+    width: 100%;
+    padding: 0 10px;
+}
+
+.formSec .formRow .formFields .formCol form {
+    width: 95%;
+}
+
+.formSec .formRow .formFields .formCol form input {
+    padding: 20px 10px;
+    border: 2px solid #D9D9D9;
+    outline: 0;
+    font-family: var(--font-DM-Sans);
+    color: var(--text-color);
+}
+
+.formSec .formRow .formFields .formCol form input:focus {
+    border: 2px solid #979797;
+}
+
+.formSec .formRow .formFields .formCol form #message {
+    padding: 20px 10px; 
+    height: 150px;
+    border: 2px solid #D9D9D9;
+    resize: none;
+}
+
+.formSec .formRow .formFields .formCol form #message:focus {
+    border: 2px solid #979797;
+}
+
+.formSec .formRow .formFields .formCol form button {
+    height: 54px;
+    width: 208px;
+}
+
+/*<--------------------------------------- Bottom Section ------------------------------>*/
+
+.bottomText h1 {
+    font-size: 50px;
+    font-family: var(--font-SangBleuSunrise-Regular);
+    color: var(--nav-text-color);
+    text-align: center;
+}
+
+.bottomText p {
+    font-family: var(--font-DM-Sans);
+    color: var(--text-color);
+    text-align: center;
+}
+
+
+
+/*----------------------------------------- Media Query ---------------------------------*/
+
+
+@media (min-width: 1200px) and (max-width:1399px) {
+
+/*---------------------------------------- Hero Section ---------------------------------*/
+
+.C_heroSection {
+    height: 389px;
+    width: calc(100% - 100px);
+}
+
+.C_heroSecItems {
+    height: 100%;
+}
+
+.C_heroText {
+    gap: 36px;
+}
+
+.C_heroText h1 {
+    font-size: 49px;
+}
+
+.C_heroText p {
+    font-size: 15px;
+}
+
+
+/*<---------------------------------- Contact Details Section -------------------------->*/
+
+.contactItem {
+    width: 22%;
+    height: 211px;
+}
+
+.contactItem .contactDetails {
+    width: 98%;
+    height: 100%;
+}
+
+.contactItem .contactDetails .contactIcon {
+    width: 100%;
+    height: 48%;
+}
+
+.contactItem .contactDetails .contactIcon .icon {
+    width: 61px;
+    height: 61px;
+}
+
+.contactItem:nth-child(2) .contactDetails .contactIcon .icon {
+    width: 52px;
+    height: 52px;
+}
+
+.contactItem .contactDetails .contactIcon .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.contactItem .contactDetails .contactText {
+    width: 100%;
+    height: 48%;
+}
+
+.contactItem .contactDetails .contactText h4 {
+    font-size: 25px;
+}
+
+.contactItem .contactDetails .contactText p {
+    font-size: 15px;
+}
+
+/*<---------------------------------------- Form Section ------------------------------->*/
+
+.formSec {
+    height: 680px;
+}
+
+
+.formSec .formRow {
+    width: 1025px;
+}
+
+.formSec .formRow .formImgCol {
+    width: 52%;
+    height: 689px;
+}
+
+.formSec .formRow .formImgCol .formImg {
+    height: 98%;
+    width: 544px;
+}
+
+.formSec .formRow .formFields {
+    height: 680px;
+    width: 47%;
+}
+
+.formSec .formRow .formFields .formCol {
+    width: 90%;
+}
+
+.formSec .formRow .formFields .formCol h1 {
+    font-size: 45px;
+    padding: 0 10px;
+}
+
+.formSec .formRow .formFields .formCol form {
+    width: 95%;
+}
+
+.formSec .formRow .formFields .formCol form input {
+    padding: 14px 7px;
+    font-size: 14px;
+}
+
+.formSec .formRow .formFields .formCol form #message {
+    padding: 14px 7px; 
+    height: 150px;
+    font-size: 14px;
+}
+
+.formSec .formRow .formFields .formCol form #message:focus {
+    border: 2px solid #979797;
+}
+
+.formSec .formRow .formFields .formCol form button {
+    height: 49px;
+    width: 187px;
+    font-size: 14px;
+}
+
+/*<--------------------------------------- Bottom Section ------------------------------>*/
+
+.bottomText h1 {
+    font-size: 45px;
+}
+
+.bottomText p {
+    font-size: 14px;
+}
+
+}
+
+
+
+
+@media (min-width: 992px) and (max-width:1199px) {
+
+/*---------------------------------------- Hero Section ---------------------------------*/
+
+.C_heroSection {
+    height: 350px;
+    width: calc(100% - 100px);
+}
+
+.C_heroSecItems {
+    height: 100%;
+}
+
+.C_heroText {
+    gap: 29px;
+}
+
+.C_heroText h1 {
+    font-size: 44px;
+}
+
+.C_heroText p {
+    font-size: 14px;
+}
+
+
+/*<---------------------------------- Contact Details Section -------------------------->*/
+
+.contactItem {
+    width: 25%;
+    height: 190px;
+}
+
+.contactItem .contactDetails {
+    width: 98%;
+    height: 100%;
+}
+
+.contactItem .contactDetails .contactIcon {
+    width: 100%;
+    height: 48%;
+}
+
+.contactItem .contactDetails .contactIcon .icon {
+    width: 55px;
+    height: 55px;
+}
+
+.contactItem:nth-child(2) .contactDetails .contactIcon .icon {
+    width: 47px;
+    height: 47px;
+}
+
+.contactItem .contactDetails .contactIcon .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.contactItem .contactDetails .contactText {
+    width: 100%;
+    height: 48%;
+}
+
+.contactItem .contactDetails .contactText h4 {
+    font-size: 23px;
+}
+
+.contactItem .contactDetails .contactText p {
+    font-size: 13px;
+}
+
+/*<---------------------------------------- Form Section ------------------------------->*/
+
+.formSec {
+    height: 612px;
+}
+
+
+.formSec .formRow {
+    width: 923px;
+}
+
+.formSec .formRow .formImgCol {
+    width: 52%;
+    height: 620px;
+}
+
+.formSec .formRow .formImgCol .formImg {
+    height: 98%;
+    width: 490px;
+}
+
+.formSec .formRow .formFields {
+    height: 612px;
+    width: 47%;
+}
+
+.formSec .formRow .formFields .formCol {
+    width: 90%;
+}
+
+.formSec .formRow .formFields .formCol h1 {
+    font-size: 41px;
+    padding: 0 10px;
+}
+
+.formSec .formRow .formFields .formCol form {
+    width: 95%;
+}
+
+.formSec .formRow .formFields .formCol form input {
+    padding: 15px 8px;
+    font-size: 13px;
+}
+
+.formSec .formRow .formFields .formCol form #message {
+    padding: 15px 8px; 
+    height: 150px;
+    font-size: 13px;
+}
+
+.formSec .formRow .formFields .formCol form #message:focus {
+    border: 2px solid #979797;
+}
+
+.formSec .formRow .formFields .formCol form button {
+    height: 44px;
+    width: 168px;
+    font-size: 13px;
+}
+
+/*<--------------------------------------- Bottom Section ------------------------------>*/
+
+.bottomText h1 {
+    font-size: 40px;
+}
+
+.bottomText p {
+    font-size: 12px;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width:991px) {
+
+/*---------------------------------------- Hero Section ---------------------------------*/
+
+.C_heroSection {
+    height: 315px;
+    width: calc(100% - 100px);
+}
+
+.C_heroSecItems {
+    height: 100%;
+}
+
+.C_heroText {
+    gap: 23px;
+}
+
+.C_heroText h1 {
+    font-size: 40px;
+}
+
+.C_heroText p {
+    font-size: 13px;
+}
+
+
+/*<---------------------------------- Contact Details Section -------------------------->*/
+
+.contactItem {
+    width: 27%;
+    height: 171px;
+}
+
+.contactItem .contactDetails {
+    width: 98%;
+    height: 100%;
+}
+
+.contactItem .contactDetails .contactIcon {
+    width: 100%;
+    height: 48%;
+}
+
+.contactItem .contactDetails .contactIcon .icon {
+    width: 50px;
+    height: 50px;
+}
+
+.contactItem:nth-child(2) .contactDetails .contactIcon .icon {
+    width: 42px;
+    height: 42px;
+}
+
+.contactItem .contactDetails .contactIcon .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.contactItem .contactDetails .contactText {
+    width: 100%;
+    height: 48%;
+}
+
+.contactItem .contactDetails .contactText h4 {
+    font-size: 20px;
+}
+
+.contactItem .contactDetails .contactText p {
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+/*<---------------------------------------- Form Section ------------------------------->*/
+
+.formSec {
+    height: 428px;
+}
+
+
+.formSec .formRow {
+    width: 646px;
+}
+
+.formSec .formRow .formImgCol {
+    width: 52%;
+    height: 434px;
+}
+
+.formSec .formRow .formImgCol .formImg {
+    height: 98%;
+    width: 343px;
+}
+
+.formSec .formRow .formFields {
+    height: 428px;
+    width: 47%;
+}
+
+.formSec .formRow .formFields .formCol {
+    width: 90%;
+}
+
+.formSec .formRow .formFields .formCol h1 {
+    font-size: 33px;
+    padding: 0 10px;
+    margin: 0;
+}
+
+.formSec .formRow .formFields .formCol form {
+    width: 95%;
+}
+
+.formSec .formRow .formFields .formCol form input {
+    padding: 10px 6px;
+    font-size: 12px;
+}
+
+.formSec .formRow .formFields .formCol form #message {
+    padding: 10px 6px; 
+    height: 104px;
+    font-size: 12px;
+}
+
+.formSec .formRow .formFields .formCol form #message:focus {
+    border: 2px solid #979797;
+}
+
+.formSec .formRow .formFields .formCol form button {
+    height: 35px;
+    width: 134px;
+    font-size: 12px;
+}
+
+/*<--------------------------------------- Bottom Section ------------------------------>*/
+
+.bottomText h1 {
+    font-size: 36px;
+}
+
+.bottomText p {
+    font-size: 11px;
+}
+
+}
+
+
+@media (min-width: 576px) and (max-width:767px) {
+
+/*---------------------------------------- Hero Section ---------------------------------*/
+
+.C_heroSection {
+    height: 284px;
+    width: calc(100% - 50px);
+}
+
+.C_heroSecItems {
+    height: 100%;
+}
+
+.C_heroText {
+    gap: 15px;
+}
+
+.C_heroText h1 {
+    font-size: 36px;
+}
+
+.C_heroText p {
+    font-size: 12px;
+}    
+
+/*<---------------------------------- Contact Details Section -------------------------->*/
+
+.contactItem {
+    width: 90%;
+    height: 154px;
+}
+
+.contactItem .contactDetails {
+    width: 55%;
+    height: 100%;
+}
+
+.contactItem .contactDetails .contactIcon {
+    width: 100%;
+    height: 48%;
+}
+
+.contactItem .contactDetails .contactIcon .icon {
+    width: 50px;
+    height: 50px;
+}
+
+.contactItem:nth-child(2) .contactDetails .contactIcon .icon {
+    width: 42px;
+    height: 42px;
+}
+
+.contactItem .contactDetails .contactIcon .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.contactItem .contactDetails .contactText {
+    width: 100%;
+    height: 48%;
+}
+
+.contactItem .contactDetails .contactText h4 {
+    font-size: 18px;
+}
+
+.contactItem .contactDetails .contactText p {
+    font-size: 11px;
+    line-height: 1.3;
+}
+
+/*<---------------------------------------- Form Section ------------------------------->*/
+
+
+.formSec {
+    height: 856px;
+}
+
+
+.formSec .formRow {
+    width: 343px;
+    justify-content: center !important;
+    border-radius: 8px;
+}
+
+.formSec .formRow .formImgCol {
+    width: 98%;
+    height: 434px;
+}
+
+.formSec .formRow .formImgCol .formImg {
+    height: 98%;
+    width: 343px;
+    border-radius: 8px 8px 0 0;
+}
+
+.formSec .formRow .formImgCol .formImg img {
+    transform: scale(1.2);
+}
+
+.formSec .formRow .formFields {
+    height: 428px;
+    width: 92%;
+}
+
+.formSec .formRow .formFields .formCol {
+    width: 98%;
+}
+
+.formSec .formRow .formFields .formCol h1 {
+    font-size: 30px;
+    padding: 0 10px;
+    margin: 0;
+}
+
+.formSec .formRow .formFields .formCol form {
+    width: 95%;
+}
+
+.formSec .formRow .formFields .formCol form input {
+    padding: 10px 6px;
+    font-size: 12px;
+}
+
+.formSec .formRow .formFields .formCol form #message {
+    padding: 10px 6px; 
+    height: 104px;
+    font-size: 12px;
+}
+
+.formSec .formRow .formFields .formCol form #message:focus {
+    border: 2px solid #979797;
+}
+
+.formSec .formRow .formFields .formCol form button {
+    height: 35px;
+    width: 134px;
+    font-size: 12px;
+}
+
+/*<--------------------------------------- Bottom Section ------------------------------>*/
+
+.bottomText h1 {
+    font-size: 32px;
+}
+
+.bottomText p {
+    font-size: 10px;
+}
+
+}
+
+
+@media (min-width: 0px) and (max-width:575px) {
+
+/*---------------------------------------- Hero Section ---------------------------------*/
+
+.C_heroSection {
+    height: 256px;
+    width: calc(100% - 75px);
+}
+
+.C_heroSecItems {
+    height: 100%;
+}
+
+.C_heroText {
+    gap: 15px;
+}
+
+.C_heroText h1 {
+    font-size: 32px;
+}
+
+.C_heroText p {
+    font-size: 10px;
+}
+
+/*<---------------------------------- Contact Details Section -------------------------->*/
+
+.contactItem {
+    width: 98%;
+    height: 139px;
+}
+
+.contactItem .contactDetails {
+    width: 153px;
+    height: 100%;
+}
+
+.contactItem .contactDetails .contactIcon {
+    width: 100%;
+    height: 48%;
+}
+
+.contactItem .contactDetails .contactIcon .icon {
+    width: 45px;
+    height: 45px;
+}
+
+.contactItem:nth-child(2) .contactDetails .contactIcon .icon {
+    width: 38px;
+    height: 38px;
+}
+
+.contactItem .contactDetails .contactIcon .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.contactItem .contactDetails .contactText {
+    width: 100%;
+    height: 48%;
+}
+
+.contactItem .contactDetails .contactText h4 {
+    font-size: 16px;
+}
+
+.contactItem .contactDetails .contactText p {
+    font-size: 10px;
+    line-height: 1.3;
+}
+
+/*<---------------------------------------- Form Section ------------------------------->*/
+
+.formSec {
+    height: 685px;
+}
+
+
+.formSec .formRow {
+    width: 280px;
+    justify-content: center !important;
+    border-radius: 8px;
+}
+
+.formSec .formRow .formImgCol {
+    width: 98%;
+    height: 347px;
+}
+
+.formSec .formRow .formImgCol .formImg {
+    height: 98%;
+    width: 343px;
+    border-radius: 8px 8px 0 0;
+}
+
+.formSec .formRow .formImgCol .formImg img {
+    transform: scale(1.2);
+}
+
+.formSec .formRow .formFields {
+    height: 342px;
+    width: 98%;
+}
+
+.formSec .formRow .formFields .formCol {
+    width: 98%;
+}
+
+.formSec .formRow .formFields .formCol h1 {
+    font-size: 25px;
+    padding: 0 6px;
+    margin: 0;
+}
+
+.formSec .formRow .formFields .formCol form {
+    width: 95%;
+}
+
+.formSec .formRow .formFields .formCol form input {
+    padding: 8px 4px;
+    font-size: 10px;
+}
+
+.formSec .formRow .formFields .formCol form #message {
+    padding: 8px 4px; 
+    height: 95px;
+    font-size: 10px;
+}
+
+.formSec .formRow .formFields .formCol form #message:focus {
+    border: 2px solid #979797;
+}
+
+.formSec .formRow .formFields .formCol form button {
+    height: 28px;
+    width: 107px;
+    font-size: 10px;
+}
+
+/*<--------------------------------------- Bottom Section ------------------------------>*/
+
+.bottomText h1 {
+    font-size: 28px;
+    line-height: 1;
+}
+
+.bottomText p {
+    font-size: 9px;
+}
+
+}

@@ -1,0 +1,300 @@
+@import "/css/style_main.css";
+@import "/css/media.css";
+
+
+/*------------------------------------ Hero Section ------------------------------------*/
+
+.A_heroSection {
+    height: 432px;
+    width: calc(100% - 100px);
+    background: url("../images/about-images/aboutBack.png") no-repeat center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.A_heroSecItems {
+    height: 100%;
+    width: 100%;
+}
+
+.A_heroText {
+    height: 100%;
+}
+
+.A_heroText h1 {
+    font-family: var(--font-SangBleuSunrise-Regular);
+    font-size: 50px;
+    margin: 0;
+    color: white;
+}
+
+
+
+/*------------------------------------ Media Query ------------------------------------*/
+
+
+@media (min-width: 1200px) and (max-width:1399px) {
+
+/*------------------------------------ Hero Section ------------------------------------*/
+
+.A_heroSection {
+    height: 389px;
+    width: calc(100% - 100px);
+}
+
+.A_heroSecItems {
+    height: 100%;
+}
+
+.A_heroText {
+    gap: 36px;
+}
+
+.A_heroText h1 {
+    font-size: 49px;
+}
+
+
+/*------------------------------------ Mid Section ------------------------------------*/
+
+.midLeft h1 {
+    font-size: 45px;
+}
+
+.midLeftImg {
+    width: 100%;
+    height: 487px;
+}
+
+.midRightImg {
+    width: 352px;
+    height: 332px;
+}
+
+.midRight p {
+    font-size: 14px;
+}
+
+.midRight a {
+    width: 185px;
+    height: 43px;
+    font-size: 14px;
+}
+
+}
+
+
+@media (min-width: 992px) and (max-width:1199px) {
+
+/*------------------------------------ Hero Section ------------------------------------*/
+
+.A_heroSection {
+    height: 350px;
+    width: calc(100% - 100px);
+}
+
+.A_heroSecItems {
+    height: 100%;
+}
+
+.A_heroText {
+    gap: 29px;
+}
+
+.A_heroText h1 {
+    font-size: 44px;
+}
+
+
+/*------------------------------------ Mid Section ------------------------------------*/
+
+.midLeft h1 {
+    font-size: 40px;
+}
+
+.midLeftImg {
+    width: 100%;
+    height: 438px;
+}
+
+.midRightImg {
+    width: 100%;
+    height: 299px;
+}
+
+.midRight p {
+    font-size: 12px;
+}
+
+.midRight a {
+    width: 167px;
+    height: 39px;
+    font-size: 12px;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width:991px) {
+
+/*------------------------------------ Hero Section ------------------------------------*/
+
+.A_heroSection {
+    height: 315px;
+    width: calc(100% - 100px);
+}
+
+.A_heroSecItems {
+    height: 100%;
+}
+
+.A_heroText {
+    gap: 23px;
+}
+
+.A_heroText h1 {
+    font-size: 40px;
+}
+
+
+
+/*------------------------------------ Mid Section ------------------------------------*/
+
+.midLeft h1 {
+    font-size: 35px;
+}
+
+.midLeftImg {
+    width: 100%;
+    height: 394px;
+}
+
+.midRightImg {
+    width: 276px;
+    height: 269px;
+}
+
+.midRight p {
+    font-size: 11px;
+}
+
+.midRight a {
+    width: 167px;
+    height: 39px;
+    font-size: 11px;
+}
+
+}
+
+
+@media (min-width: 576px) and (max-width:767px) {
+
+/*------------------------------------ Hero Section ------------------------------------*/
+
+.A_heroSection {
+    height: 284px;
+    width: calc(100% - 50px);
+}
+
+.A_heroSecItems {
+    height: 100%;
+}
+
+.A_heroText {
+    gap: 15px;
+}
+
+.A_heroText h1 {
+    font-size: 36px;
+}    
+
+/*------------------------------------ Mid Section ------------------------------------*/
+
+.midLeft {
+    align-items: center !important;
+}
+
+.midLeft h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.midLeftImg {
+    width: 246px;
+    height: 315px;
+}
+
+.midRight {
+    align-items: center !important;
+}
+
+.midRightImg {
+    width: 228px;
+    height: 215px;
+}
+
+.midRight p {
+    font-size: 11px;
+}
+
+.midRight a {
+    width: 134px;
+    height: 31px;
+    font-size: 11px;
+}
+
+}
+
+
+@media (min-width: 0px) and (max-width:575px) {
+
+/*------------------------------------ Hero Section ------------------------------------*/
+
+.A_heroSection {
+    height: 256px;
+    width: calc(100% - 75px);
+}
+
+.A_heroSecItems {
+    height: 100%;
+}
+
+.A_heroText {
+    gap: 15px;
+}
+
+.A_heroText h1 {
+    font-size: 32px;
+}
+
+/*------------------------------------ Mid Section ------------------------------------*/
+
+.midLeft {
+    align-items: center !important;
+}
+
+.midLeft h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.midLeftImg {
+    width: 246px;
+    height: 315px;
+}
+
+.midRight {
+    align-items: center !important;
+}
+
+.midRightImg {
+    width: 228px;
+    height: 215px;
+}
+
+.midRight p {
+    font-size: 10px;
+    text-align: justify;
+}
+
+}

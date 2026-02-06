@@ -1,0 +1,432 @@
+@import "/css/style_main.css";
+@import "/css/media.css";
+
+
+/*------------------------------------ Hero Section ------------------------------------*/
+
+.P_heroSection {
+    height: 432px;
+    width: calc(100% - 100px);
+    background: url("../images/philosophy-images/P-HeroBack.png") no-repeat center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.P_heroSecItems {
+    height: 100%;
+}
+
+.P_heroText {
+    gap: 40px;
+}
+
+.P_heroText h1 {
+    font-family: var(--font-SangBleuSunrise-Regular);
+    font-size: 54px;
+    margin: 0;
+    color: white;
+}
+
+.P_heroText p {
+    font-family: var(--font-DM-Sans);
+    color: var(--text-color);
+    color: white;
+}
+
+
+/*------------------------------------ Brief Section ------------------------------------*/
+
+.briefSecItems {
+    width: 33%;
+    height: 352px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.briefSecItems.type-1 .briefItem {
+    background: var(--color-light-white);
+}
+
+.briefSecItems.type-2 .briefItem {
+    background: var(--color-pink);
+}
+
+.briefSecItems.type-1 .briefItem .briefText h4{
+    color: var(--nav-text-color);
+}
+
+.briefSecItems.type-1 .briefItem .briefText p {
+    color: var(--text-color);
+}
+
+.briefSecItems.type-2 .briefItem .briefText h4{
+    color: white;
+}
+
+.briefSecItems.type-2 .briefItem .briefText p {
+    color: white;
+}
+
+.briefSecItems .briefItem {
+    width: 90%;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgb(0,0,0,0.5);
+}
+
+.briefSecItems .briefItem .briefIconSec {
+    width: 100%;
+    height: 40%;
+}
+
+.briefSecItems .briefItem .briefIconSec .briefIcon {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+}
+
+.briefSecItems .briefItem .briefIconSec .briefIcon img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.briefSecItems:nth-child(2) .briefItem .briefIconSec .briefIcon img {
+    width: 60.2%;
+    height: 40.75%;
+}
+
+.briefSecItems.type-1 .briefItem .briefIconSec .briefIcon {
+    background: var(--color-pink);
+}
+
+.briefSecItems.type-2 .briefItem .briefIconSec .briefIcon {
+    background: var(--color-light-white);
+}
+
+.briefSecItems .briefItem .briefText {
+    width: 100%;
+    height: 58%;
+    
+}
+
+.briefSecItems .briefItem .briefText h4 {
+    font-size: 28px;
+    text-align: center;
+    font-family: var(--font-SangBleuSunrise-Regular);
+    line-height: 1;
+    margin: 4px;
+}
+
+.briefSecItems .briefItem .briefText p {
+    font-size: 16px;
+    text-align: center;
+    font-family: var(--font-DM-Sans);
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+
+/*------------------------------------ Media Query ------------------------------------*/
+
+
+@media (min-width: 1200px) and (max-width:1399px) {
+
+/*------------------------------------ Hero Section ------------------------------------*/
+
+.P_heroSection {
+    height: 389px;
+    width: calc(100% - 100px);
+}
+
+.P_heroSecItems {
+    height: 100%;
+}
+
+.P_heroText {
+    gap: 36px;
+}
+
+.P_heroText h1 {
+    font-size: 49px;
+}
+
+.P_heroText p {
+    font-size: 15px;
+}
+
+
+/*------------------------------------ Brief Section ------------------------------------*/
+
+.briefSecItems {
+    height: 317px;
+}
+
+.briefSecItems .briefItem {
+    width: 95%;
+}
+
+.briefSecItems .briefItem .briefIconSec {
+    height: 40%;
+}
+
+.briefSecItems .briefItem .briefIconSec .briefIcon {
+    width: 97px;
+    height: 97px;
+}
+
+.briefSecItems .briefItem .briefText h4 {
+    font-size: 25px;
+    margin: 4px;
+}
+
+.briefSecItems .briefItem .briefText p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+}
+
+
+@media (min-width: 992px) and (max-width:1199px) {
+
+/*------------------------------------ Hero Section ------------------------------------*/
+
+.P_heroSection {
+    height: 350px;
+    width: calc(100% - 100px);
+}
+
+.P_heroSecItems {
+    height: 100%;
+}
+
+.P_heroText {
+    gap: 29px;
+}
+
+.P_heroText h1 {
+    font-size: 44px;
+}
+
+.P_heroText p {
+    font-size: 14px;
+}
+
+
+/*------------------------------------ Brief Section ------------------------------------*/
+
+.briefSecItems {
+    height: 285px;
+}
+
+.briefSecItems .briefItem {
+    width: 95%;
+}
+
+.briefSecItems .briefItem .briefIconSec {
+    height: 40%;
+}
+
+.briefSecItems .briefItem .briefIconSec .briefIcon {
+    width: 87px;
+    height: 87px;
+}
+
+.briefSecItems .briefItem .briefText h4 {
+    font-size: 23px;
+    margin: 4px;
+}
+
+.briefSecItems .briefItem .briefText p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width:991px) {
+
+/*------------------------------------ Hero Section ------------------------------------*/
+
+.P_heroSection {
+    height: 315px;
+    width: calc(100% - 100px);
+}
+
+.P_heroSecItems {
+    height: 100%;
+}
+
+.P_heroText {
+    gap: 23px;
+}
+
+.P_heroText h1 {
+    font-size: 40px;
+}
+
+.P_heroText p {
+    font-size: 13px;
+}
+
+
+/*------------------------------------ Brief Section ------------------------------------*/
+
+.briefSecItems {
+    width: 48%;
+    height: 257px;
+}
+
+.briefSecItems .briefItem {
+    width: 95%;
+}
+
+.briefSecItems .briefItem .briefIconSec {
+    height: 40%;
+}
+
+.briefSecItems .briefItem .briefIconSec .briefIcon {
+    width: 87px;
+    height: 87px;
+}
+
+.briefSecItems .briefItem .briefText h4 {
+    font-size: 22px;
+    margin: 4px;
+}
+
+.briefSecItems .briefItem .briefText p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+}
+
+
+@media (min-width: 576px) and (max-width:767px) {
+
+/*------------------------------------ Hero Section ------------------------------------*/
+
+.P_heroSection {
+    height: 284px;
+    width: calc(100% - 50px);
+}
+
+.P_heroSecItems {
+    height: 100%;
+}
+
+.P_heroText {
+    gap: 15px;
+}
+
+.P_heroText h1 {
+    font-size: 36px;
+}
+
+.P_heroText p {
+    font-size: 12px;
+}    
+
+/*------------------------------------ Brief Section ------------------------------------*/
+
+.briefSecItems {
+    width: 80%;
+    height: 231px;
+}
+
+.briefSecItems .briefItem {
+    width: 95%;
+}
+
+.briefSecItems .briefItem .briefIconSec {
+    height: 48%;
+}
+
+.briefSecItems .briefItem .briefIconSec .briefIcon {
+    width: 78px;
+    height: 78px;
+}
+
+.briefSecItems .briefItem .briefText {
+    height: 48%;
+}
+
+.briefSecItems .briefItem .briefText h4 {
+    font-size: 22px;
+    margin: 4px;
+}
+
+.briefSecItems .briefItem .briefText p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+}
+
+
+@media (min-width: 0px) and (max-width:575px) {
+
+/*------------------------------------ Hero Section ------------------------------------*/
+
+.P_heroSection {
+    height: 256px;
+    width: calc(100% - 75px);
+}
+
+.P_heroSecItems {
+    height: 100%;
+}
+
+.P_heroText {
+    gap: 15px;
+}
+
+.P_heroText h1 {
+    font-size: 32px;
+}
+
+.P_heroText p {
+    font-size: 10px;
+}
+
+/*------------------------------------ Brief Section ------------------------------------*/
+
+.briefSecItems {
+    width: 95%;
+    height: 208px;
+}
+
+.briefSecItems .briefItem {
+    width: 95%;
+}
+
+.briefSecItems .briefItem .briefIconSec {
+    height: 45%;
+}
+
+.briefSecItems .briefItem .briefIconSec .briefIcon {
+    width: 63px;
+    height: 63px;
+}
+
+.briefSecItems .briefItem .briefText {
+    height: 53%;
+}
+
+.briefSecItems .briefItem .briefText h4 {
+    font-size: 17px;
+    margin: 4px;
+}
+
+.briefSecItems .briefItem .briefText p {
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+}
+
+

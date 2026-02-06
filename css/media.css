@@ -1,0 +1,1992 @@
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: calc(100vw - 124px);
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1399px) {
+    
+/* ------------------------------------------ Header -----------------------------------*/
+
+.header {
+    height: 60px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    left: 90px;
+    top: -64px;
+}
+
+.logo .logo-items {
+    padding-top: 60px;
+}
+
+.logo .logo-img {
+    width: 44px;
+}
+
+.logo .logo-text {
+    width: 110px;
+}
+
+.navbar-nav {
+    gap: 25px;
+}
+
+.navbar-nav .nav-item .nav-link .nav-button p {
+    font-size: 15px;
+}
+
+.navbar-nav .nav-item .nav-link .nav-button {
+    font-size: 15px;
+    height: 40px;
+}
+
+.menuBar .cBtn {
+    height: 40px;
+    padding: 12px 14px;
+}
+
+.menuBar .cBtn a {
+    font-size: 15px;
+    height: 40px;
+}
+
+/*------------------------------------------ Body -------------------------------------*/
+
+
+.heroSection {
+    height: 700px;
+    width: calc(100% - 100px);
+}
+
+.heroSection h1 {
+    font-size: 45px;
+}
+
+.heroSecImg .heroImg {
+    width: 999px;
+    height: 482px;
+    padding: 15px;
+}
+
+.heroSection p {
+    font-size: 14px;
+}
+
+.heroSectionText .Btn {
+    width: 106px;
+    height: 41px;
+    font-size: 14px;
+}
+
+
+/*------------------------------------ Mid Section -------------------------------------*/
+
+.midLeft h1 {
+    font-size: 45px;
+}
+
+.midLeftImg {
+    width: 380px;
+    height: 487px;
+}
+
+.midRightImg {
+    width: 352px;
+    height: 332px;
+}
+
+.midRight p {
+    font-size: 14px;
+}
+
+.midRight a {
+    width: 185px;
+    height: 43px;
+    font-size: 14px;
+}
+
+
+/*------------------------------------ Bottom Section-----------------------------------*/
+
+.bottomSectionH h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.bottomSectionH h1 br {
+    display: none;
+}
+
+.bottomSecItems {
+    width: 22%;
+    height: 284px;
+}
+
+.bottomSecText {
+    width: 100%;
+    height: 215px;
+}
+
+.bottomSecText h4 {
+    font-size: 24px;
+}
+
+.bottomSecText p {
+    font-size: 14px;
+}
+
+
+/*------------------------------------- Slider Section -------------------------------------*/
+
+/* ------- Heading Part -------- */
+
+.sliderSection a {
+    width: 94px;
+    padding: 4px 12px;
+    font-size: 12px;
+}
+
+.sliderSection h1 {
+    font-size: 45px;
+}
+
+
+/* ------- Slider Part -------- */
+
+
+.sliderItems {
+    gap: 50px;
+}
+
+.arrow {
+    height: 55px;
+    width: 55px;
+    font-size: 14px;
+    transform: translateY(-185%);
+}
+
+.frame {
+    width: 50%;
+    height: 400px;
+}
+
+.imgFrame {
+    width: 100%;
+    height: 48%;
+    gap: 34px;
+}
+
+.frame1, .frame5 {
+    width: 50px;
+    height: 50px;
+}
+
+.frame2, .frame4 {
+    width: 74px;
+    height: 74px;
+}
+
+.frame3 {
+    width: 105px;
+    height: 105px;
+}
+
+.img1, .img2, .img3, .img4, .img5 {
+    width: 100%;
+    height: 100%;
+}
+
+.textFrame {
+    width: 100%;
+    height: 48%;
+}
+.text {
+    width: 100%;
+    height: 100%;
+}
+
+.text>p {
+    font-size: 14px;
+    width: 80%;
+    height: 60%;
+}
+
+.textName {
+    font-size: 12px;
+}
+
+.textRoll {
+    font-size: 10px;
+}
+
+
+/*------------------------------------- Footer Section -------------------------------------*/
+
+footer {
+    height: 415px;
+}
+
+.footerTopBanner {
+    max-width: 945px;
+    width: 100%;
+    height: 127px;
+    transform: translateY(-50%);
+}
+
+.footerBannerLeft {
+    width: 60%;
+    height: 100%;
+}
+
+.footerBannerLeft h1 {
+    font-size: 50px;
+}
+
+.footerBannerRight {
+    width: 38%;
+    height: 100%;
+}
+
+.footerBannerRight a {
+    width: 153px;
+    height: 57px;
+    font-size: 16px;
+    margin-left: 80px;
+}
+
+.footerLogo {
+    width: 100%;
+    height: 100%;
+}
+
+.footerLogo .footerLogoImg {
+    width: 82px;
+    height: 109px;
+}
+
+.footerLogo .footerLogoText {
+    width: 195px;
+    height: 43px;
+}
+
+.QLinks h4 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.QLinksBorder {
+    width: 55px;
+    height: 2px;
+}
+
+.QLinks ul li a {
+    font-size: 16px;
+}
+
+.aLinks h4 {
+    font-size: 18px;
+    margin-bottom: 6px;
+    text-align: start;
+}
+
+.aLinksBorder {
+    width: 55px;
+    height: 2px;
+}
+
+.aLinks ul li a {
+    font-size: 16px;
+}
+
+.sLinks h4 {
+    font-size: 18px;
+    margin-bottom: 6px;
+    text-align: start;
+}
+
+.sLinksBorder {
+    width: 55px;
+    height: 2px;
+}
+
+.search-box {
+    gap: 10px;
+}
+
+.submit-box input {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.submit-box button i {
+    width: 41px;
+    height: 41px;
+    font-size: 38px;
+}
+
+.social-links {
+    gap: 20px;
+}
+
+.social-links a {
+    width: 41px;
+    height: 41px;
+    font-size: 16px;
+}
+
+.sLinks ul li a .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.footerBottom p {
+    font-size: 14px;
+}
+
+
+}
+
+
+@media (min-width: 992px) and (max-width:1199px) {
+    
+
+.header {
+    height: 55px;
+}
+
+.logo {
+    width: 180px;
+    height: 180px;
+    left: 90px;
+    top: -64px;
+}
+
+.logo .logo-items {
+    padding-top: 60px;
+}
+
+.logo .logo-img {
+    width: 35px;
+}
+
+.logo .logo-text {
+    width: 90px;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.navbar-nav .nav-item .nav-link .nav-button p {
+    font-size: 14px;
+}
+
+.navbar-nav .nav-item .nav-link .nav-button {
+    font-size: 14px;
+    height: 35px;
+}
+
+.menuBar .cBtn {
+    height: 35px;
+    padding: 10px 12px;
+}
+
+.menuBar .cBtn a {
+    font-size: 14px;
+    height: 35px;
+}
+
+/*------------------------------------------ Body -------------------------------------*/
+
+
+.heroSection {
+    height: 600px;
+    width: calc(100% - 100px);
+}
+
+.heroSecImg .heroImg {
+    width: 899px;
+    height: 434px;
+    padding: 10px;
+}
+
+.heroSection h1 {
+    font-size: 38px;
+}
+
+.heroSection p {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.heroSectionText .Btn {
+    width: 95px;
+    height: 37px;
+    font-size: 12px;
+}
+
+
+/*------------------------------------ Mid Section -------------------------------------*/
+
+.midLeft h1 {
+    font-size: 40px;
+}
+
+.midLeftImg {
+    width: 342px;
+    height: 438px;
+}
+
+.midRightImg {
+    width: 317px;
+    height: 299px;
+}
+
+.midRight p {
+    font-size: 13px;
+}
+
+.midRight a {
+    width: 167px;
+    height: 39px;
+    font-size: 13px;
+}
+
+/*------------------------------------ Bottom Section-----------------------------------*/
+
+.bottomSectionH h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.bottomSectionH h1 br {
+    display: none;
+}
+
+.bottomSecItems {
+    width: 23%;
+    height: 255px;
+}
+
+.bottomSecText {
+    width: 100%;
+    height: 194px;
+}
+
+.bottomSecText h4 {
+    font-size: 20px;
+}
+
+.bottomSecText p {
+    font-size: 13px;
+}
+
+
+/*------------------------------------- Slider Section -------------------------------------*/
+
+
+/* ------- Heading Part -------- */
+
+.sliderSection a {
+    width: 75px;
+    padding: 2px 8px;
+    font-size: 10px;
+}
+
+.sliderSection h1 {
+    font-size: 40px;
+}
+
+
+/* ------- Slider Part -------- */
+
+
+.sliderItems {
+    gap: 50px;
+}
+
+.arrow {
+    height: 50px;
+    width: 50px;
+    font-size: 12px;
+    transform: translateY(-185%);
+}
+
+.frame {
+    width: 50%;
+    height: 360px;
+}
+
+.imgFrame {
+    width: 100%;
+    height: 48%;
+    gap: 34px;
+}
+
+.frame1, .frame5 {
+    width: 45px;
+    height: 45px;
+}
+
+.frame2, .frame4 {
+    width: 67px;
+    height: 67px;
+}
+
+.frame3 {
+    width: 95px;
+    height: 95px;
+}
+
+.img1, .img2, .img3, .img4, .img5 {
+    width: 100%;
+    height: 100%;
+}
+
+.textFrame {
+    width: 100%;
+    height: 48%;
+}
+.text {
+    width: 100%;
+    height: 100%;
+
+}
+
+.text>p {
+    font-size: 12px;
+    width: 80%;
+    height: 60%;
+}
+
+.textName {
+    font-size: 10px;
+}
+
+.textRoll {
+    font-size: 8px;
+}
+
+
+/*------------------------------------- Footer Section -------------------------------------*/
+
+footer {
+    height: 350px;
+}
+
+.footerTopBanner {
+    max-width: 756px;
+    height: 102px;
+    transform: translateY(-50%);
+}
+
+.footerBannerLeft {
+    width: 60%;
+}
+
+.footerBannerLeft h1 {
+    font-size: 40px;
+}
+
+.footerBannerRight {
+    width: 38%;
+}
+
+.footerBannerRight a {
+    width: 122px;
+    height: 46px;
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.footerLogo .footerLogoImg {
+    width: 66px;
+    height: 87px;
+}
+
+.footerLogo .footerLogoText {
+    width: 156px;
+    height: 34px;
+}
+
+.QLinks h4 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.QLinksBorder {
+    width: 44px;
+    height: 2px;
+}
+
+.QLinks ul li a {
+    font-size: 14px;
+}
+
+.aLinks h4 {
+    font-size: 16px;
+    margin-bottom: 4px;
+    text-align: start;
+}
+
+.aLinksBorder {
+    width: 44px;
+    height: 2px;
+}
+
+.aLinks ul li a {
+    font-size: 14px;
+}
+
+.sLinks h4 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.sLinksBorder {
+    width: 44px;
+    height: 2px;
+}
+
+.search-box {
+    gap: 6px;
+}
+
+.submit-box input {
+    font-size: 14px;
+    padding: 8px 16px;
+    width: 80%;
+}
+
+.submit-box button i {
+    width: 33px;
+    height: 33px;
+    font-size: 30px;
+}
+
+.social-links {
+    gap: 15px;
+}
+
+.social-links a {
+    width: 33px;
+    height: 33px;
+    font-size: 14px;
+}
+
+.footerBottom p {
+    font-size: 12px;
+}
+
+
+}
+
+
+@media (min-width: 768px) and (max-width:991px) {
+    
+.container, .container-md, .container-sm {
+    max-width: 100%;
+}
+
+
+.header {
+    height: 60px;
+}
+
+.logo {
+    width: 170px;
+    height: 170px;
+    left: 80px;
+    top: -64px;
+}
+
+.logo .logo-items {
+    padding-top: 60px;
+}
+
+.logo .logo-img {
+    width: 35px;
+}
+
+.logo .logo-text {
+    width: 90px;
+}
+
+.menuBar {
+    flex-direction: row-reverse;
+    justify-content: flex-start !important;
+    gap: 20px;
+    height: 60px;
+}
+
+.offcanvas {
+    width: calc(100% - 68%) !important;
+    background-color: var(--color-light-white);
+}
+
+.offcanvas .offcanvas-header {
+    padding: 14px 24px;
+}
+
+.offcanvas .offcanvas-body {
+    padding: 4px 16px;
+}
+
+.offcanvas .offcanvas-body ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.offcanvas .offcanvas-body ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: start;
+    width: 40%;
+}
+
+.offcanvas .offcanvas-body ul li a {
+    font-family: var(--font-DM-Sans);
+    font-size: 16px;
+    color: var(--nav-text-color);
+    margin: 0;
+    width: 150px;
+}
+
+.offcanvas .offcanvas-body ul li:hover a {
+    color: var(--color-pink);
+}
+
+.menuBar .cBtn {
+    height: 32px;
+    padding: 9px 11px;
+}
+
+.menuBar .cBtn a {
+    font-size: 13px;
+    height: 32px;
+}
+
+.navbar-toggler {
+    padding: 3px 8px;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.btn-close {
+    --bs-btn-close-focus-shadow: 0 0 0 0 rgba(0,0,0,0);
+    font-size: 24px;
+}
+
+.navbar-toggler.collapse {
+    width: 32px;
+    height: 24px;
+    display: flex;
+}
+.navbar-toggler-icon {
+    width: 32px;
+    height: 32px;
+}
+
+/*------------------------------------------ Body -------------------------------------*/
+
+
+.heroSection {
+    height: 500px;
+    width: calc(100% - 100px);
+}
+
+.heroSecImg .heroImg {
+    width: 809px;
+    height: 391px;
+    padding: 10px;
+}
+
+.heroSection h1 {
+    font-size: 24px;
+}
+
+.heroSection p {
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+
+.heroSectionText .Btn {
+    width: 86px;
+    height: 33px;
+    font-size: 10px;
+}
+
+
+/*------------------------------------ Mid Section -------------------------------------*/
+
+.midLeft h1 {
+    font-size: 35px;
+}
+
+.midLeftImg {
+    width: 308px;
+    height: 394px;
+}
+
+.midRightImg {
+    width: 285px;
+    height: 269px;
+}
+
+.midRight p {
+    font-size: 13px;
+}
+
+.midRight a {
+    width: 167px;
+    height: 39px;
+    font-size: 13px;
+}
+
+
+/*------------------------------------ Bottom Section-----------------------------------*/
+
+.bottomSectionH h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.bottomSectionH h1 br {
+    display: none;
+}
+
+.bottomSecItems {
+    width: 23%;
+    height: 204px;
+}
+
+.bottomSecText {
+    width: 100%;
+    height: 155px;
+}
+
+.bottomSecText h4 {
+    font-size: 16px;
+}
+
+.bottomSecText p {
+    font-size: 10px;
+}
+
+
+/*------------------------------------- Slider Section -------------------------------------*/
+
+
+/* ------- Heading Part -------- */
+
+.sliderSection a {
+    width: 68px;
+    padding: 2px 8px;
+    font-size: 8px;
+}
+
+.sliderSection h1 {
+    font-size: 35px;
+}
+
+
+/* ------- Slider Part -------- */
+
+
+.sliderItems {
+    gap: 50px;
+}
+
+.arrow {
+    height: 40px;
+    width: 40px;
+    font-size: 10px;
+    transform: translateY(-185%);
+}
+
+.frame {
+    width: 70%;
+    height: 288px;
+}
+
+.imgFrame {
+    width: 100%;
+    height: 48%;
+    gap: 27px;
+}
+
+.frame1, .frame5 {
+    width: 36px;
+    height: 36px;
+}
+
+.frame2, .frame4 {
+    width: 54px;
+    height: 54px;
+}
+
+.frame3 {
+    width: 76px;
+    height: 76px;
+}
+
+.img1, .img2, .img3, .img4, .img5 {
+    width: 100%;
+    height: 100%;
+}
+
+.textFrame {
+    width: 100%;
+    height: 48%;
+}
+.text {
+    width: 100%;
+    height: 100%;
+
+}
+
+.text>p {
+    font-size: 12px;
+    width: 90%;
+    height: 60%;
+}
+
+.textName {
+    font-size: 10px;
+}
+
+.textRoll {
+    font-size: 8px;
+}
+
+/*------------------------------------- Footer Section -------------------------------------*/
+
+footer {
+    height: 307px;
+}
+
+.footerTopBanner {
+    max-width: 680px;
+    height: 92px;
+    transform: translateY(-50%);
+}
+
+.footerBannerLeft {
+    width: 60%;
+}
+
+.footerBannerLeft h1 {
+    font-size: 32px;
+}
+
+.footerBannerRight {
+    width: 39%;
+    background-size: 44%;
+}
+
+.footerBannerRight a {
+    width: 110px;
+    height: 41px;
+    font-size: 12px;
+    margin-left: 95px;
+}
+
+.footerLogo .footerLogoImg {
+    width: 59px;
+    height: 78px;
+}
+
+.footerLogo .footerLogoText {
+    width: 140px;
+    height: 31px;
+}
+
+.QLinks h4 {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.QLinks span, .aLinks span, .sLinks span {
+    padding-bottom: 10px;
+}
+
+.hText {
+    font-size: 12px;
+}
+
+.QLinksBorder {
+    width: 40px;
+    height: 2px;
+}
+
+.QLinks ul li a {
+    font-size: 12px;
+}
+
+.aLinks h4 {
+    font-size: 14px;
+    margin-bottom: 4px;
+    text-align: start;
+}
+
+.aLinksBorder {
+    width: 40px;
+    height: 2px;
+}
+
+.aLinks ul li a {
+    font-size: 12px;
+}
+
+.sLinks h4 {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.sLinksBorder {
+    width: 40px;
+    height: 2px;
+}
+
+.search-box {
+    gap: 6px;
+}
+
+.submit-box input {
+    font-size: 12px;
+    padding: 6px 14px;
+    width: 100%;
+}
+
+.submit-box button i {
+    width: 30px;
+    height: 30px;
+    font-size: 27px;
+}
+
+.social-links {
+    gap: 15px;
+}
+
+.social-links a {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.footerBottom p {
+    font-size: 10px;
+}
+
+
+}
+
+
+@media (min-width: 576px) and (max-width:767px) {
+    
+
+.container, .container-sm {
+    max-width: 100%;
+}
+
+.header {
+    height: 45px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    left: 50px;
+    top: -64px;
+}
+
+.logo .logo-items {
+    padding-top: 60px;
+}
+
+.logo .logo-img {
+    width: 30px;
+}
+
+.logo .logo-text {
+    width: 70px;
+}
+
+.menuBar {
+    flex-direction: row-reverse;
+    justify-content: flex-start !important;
+    gap: 20px;
+    height: 45px;
+}
+
+.offcanvas {
+    width: calc(100% - 65%) !important;
+    background-color: var(--color-light-white);
+}
+
+.offcanvas .offcanvas-header {
+    padding: 14px 24px;
+}
+
+.offcanvas .offcanvas-body {
+    padding: 4px 16px;
+}
+
+.offcanvas .offcanvas-body ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.offcanvas .offcanvas-body ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: start;
+    width: 40%;
+}
+
+.offcanvas .offcanvas-body ul li a {
+    font-family: var(--font-DM-Sans);
+    font-size: 15px;
+    color: var(--nav-text-color);
+    margin: 0;
+    width: 150px;
+}
+
+.offcanvas .offcanvas-body ul li:hover a {
+    color: var(--color-pink);
+}
+
+.menuBar .cBtn {
+    height: 30px;
+    padding: 9px 11px;
+}
+
+.menuBar .cBtn a {
+    font-size: 12px;
+    height: 30px;
+}
+
+.navbar-toggler {
+    padding: 3px 8px;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.btn-close {
+    --bs-btn-close-focus-shadow: 0 0 0 0 rgba(0,0,0,0);
+    font-size: 20px;
+}
+
+.navbar-toggler.collapse {
+    width: 32px;
+    height: 24px;
+    display: flex;
+}
+.navbar-toggler-icon {
+    width: 32px;
+    height: 32px;
+}
+
+/*------------------------------------------ Body -------------------------------------*/
+
+
+.heroSection {
+    height: 400px;
+    width: calc(100% - 50px);
+}
+
+.heroSecImg .heroImg {
+    width: 809px;
+    height: 313px;
+    padding: 8px;
+}
+
+.heroSection h1 {
+    font-size: 18px;
+}
+
+.heroSection p {
+    font-size: 8px;
+    margin-bottom: 4px;
+}
+
+.heroSectionText .Btn {
+    width: 69px;
+    height: 26px;
+    font-size: 8px;
+}
+
+
+/*------------------------------------ Mid Section -------------------------------------*/
+
+.midLeft h1 {
+    font-size: 30px;
+}
+
+.midLeftImg {
+    width: 246px;
+    height: 315px;
+}
+
+.midRightImg {
+    width: 228px;
+    height: 215px;
+}
+
+.midRight p {
+    font-size: 11px;
+}
+
+.midRight a {
+    width: 134px;
+    height: 31px;
+    font-size: 11px;
+}
+
+
+/*------------------------------------ Bottom Section-----------------------------------*/
+
+.bottomSectionH h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.bottomSectionH h1 br {
+    display: none;
+}
+
+.bottomSecItems {
+    width: 47%;
+    height: 184px;
+}
+
+.bottomSecText {
+    width: 100%;
+    height: 140px;
+}
+
+.bottomSecText h4 {
+    font-size: 18px;
+}
+
+.bottomSecText p {
+    font-size: 12px;
+}
+
+
+/*------------------------------------- Slider Section -------------------------------------*/
+
+
+/* ------- Heading Part -------- */
+
+.sliderSection a {
+    width: 60px;
+    padding: 2px 6px;
+    font-size: 7px;
+}
+
+.sliderSection h1 {
+    font-size: 30px;
+}
+
+
+/* ------- Slider Part -------- */
+
+
+.sliderItems {
+    gap: 30px;
+}
+
+.arrow {
+    height: 32px;
+    width: 32px;
+    font-size: 10px;
+    transform: translateY(-185%);
+}
+
+.frame {
+    width: 80%;
+    height: 230px;
+}
+
+.imgFrame {
+    width: 100%;
+    height: 48%;
+    gap: 14px;
+}
+
+.frame1, .frame5 {
+    width: 29px;
+    height: 29px;
+}
+
+.frame2, .frame4 {
+    width: 43px;
+    height: 43px;
+}
+
+.frame3 {
+    width: 61px;
+    height: 61px;
+}
+
+.img1, .img2, .img3, .img4, .img5 {
+    width: 100%;
+    height: 100%;
+}
+
+.textFrame {
+    width: 100%;
+    height: 48%;
+}
+.text {
+    width: 100%;
+    height: 100%;
+
+}
+
+.text>p {
+    font-size: 10px;
+    width: 90%;
+    height: 60%;
+}
+
+.textName {
+    font-size: 8px;
+}
+
+.textRoll {
+    font-size: 6px;
+}
+
+
+/*------------------------------------- Footer Section -------------------------------------*/
+
+footer {
+    height: 250px;
+}
+
+.footerTopBanner {
+    max-width: 612px;
+    height: 83px;
+    transform: translateY(-50%);
+}
+
+.footerBannerLeft {
+    width: 60%;
+}
+
+.footerBannerLeft h1 {
+    font-size: 24px;
+}
+
+.footerBannerRight {
+    width: 38%;
+    background-size: 40%;
+}
+
+.footerBannerRight a {
+    width: 88px;
+    height: 33px;
+    font-size: 10px;
+    margin-left: 65px;
+}
+
+.footerLogo .footerLogoImg {
+    width: 47px;
+    height: 62px;
+}
+
+.footerLogo .footerLogoText {
+    width: 112px;
+    height: 25px;
+}
+
+.QLinks h4 {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.QLinks span, .aLinks span, .sLinks span {
+    padding-bottom: 8px;
+}
+
+.hText {
+    font-size: 10px;
+}
+
+.QLinksBorder {
+    width: 32px;
+    height: 2px;
+}
+
+.QLinks ul li a {
+    font-size: 10px;
+}
+
+.aLinks h4 {
+    font-size: 12px;
+    margin-bottom: 2px;
+    text-align: start;
+}
+
+.aLinksBorder {
+    width: 32px;
+    height: 2px;
+}
+
+.aLinks ul li a {
+    font-size: 10px;
+}
+
+.sLinks h4 {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.sLinksBorder {
+    width: 32px;
+    height: 2px;
+}
+
+.search-box {
+    gap: 6px;
+}
+
+.submit-box input {
+    font-size: 10px;
+    padding: 4px 10px;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.submit-box button i {
+    width: 26px;
+    height: 26px;
+    font-size: 21px;
+}
+
+.social-links {
+    gap: 15px;
+}
+
+.social-links a {
+    width: 26px;
+    height: 26px;
+    font-size: 8px;
+}
+
+.footerBottom p {
+    font-size: 8px;
+}
+
+
+}
+
+
+@media (min-width: 0px) and (max-width:575px) {
+
+    
+.header {
+    height: 45px;
+}
+
+.logo {
+    width: 110px;
+    height: 130px;
+    left: 50px;
+    top: -64px;
+}
+
+.logo .logo-items {
+    padding-top: 60px;
+}
+
+.logo .logo-img {
+    width: 25px;
+}
+
+.logo .logo-text {
+    width: 50px;
+}
+
+.menuBar {
+    flex-direction: row-reverse;
+    justify-content: flex-start !important;
+    gap: 10px;
+    height: 45px;
+}
+
+.offcanvas {
+    width: calc(100% - 60%) !important;
+    background-color: var(--color-light-white);
+}
+
+.offcanvas .offcanvas-header {
+    padding: 10px 18px;
+}
+
+.offcanvas .offcanvas-body {
+    padding: 4px 16px;
+}
+
+.offcanvas .offcanvas-body ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.offcanvas .offcanvas-body ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: start;
+    width: 40%;
+}
+
+.offcanvas .offcanvas-body ul li a {
+    font-family: var(--font-DM-Sans);
+    font-size: 14px;
+    color: var(--nav-text-color);
+    margin: 0;
+    width: 150px;
+}
+
+.offcanvas .offcanvas-body ul li:hover a {
+    color: var(--color-pink);
+}
+
+.menuBar .cBtn {
+    height: 27px;
+    padding: 9px 11px;
+}
+
+.menuBar .cBtn a {
+    font-size: 10px;
+    height: 27px;
+}
+
+.navbar-toggler {
+    padding: 3px 8px;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.btn-close {
+    --bs-btn-close-focus-shadow: 0 0 0 0 rgba(0,0,0,0);
+    font-size: 18px;
+}
+
+.navbar-toggler.collapse {
+    width: 32px;
+    height: 24px;
+    display: flex;
+}
+.navbar-toggler-icon {
+    width: 27px;
+    height: 27px;
+}
+
+.navbar {
+    margin: 0;
+}
+
+/*------------------------------------------ Body -------------------------------------*/
+
+
+.heroSection {
+    height: 340px;
+    width: calc(100% - 50px);
+    overflow: hidden;
+}
+
+.heroSecItems {
+    width: 100%;
+    justify-content: start !important;
+    gap: 15px;
+}
+
+.heroSecText {
+    height: 54%;
+    margin-bottom: 5px;
+}
+
+.heroSecImg {
+    height: 38%;
+}
+
+.heroSecImg .heroImg {
+    width: 400px;
+    height: 140px;
+    padding: 6px;
+    overflow: hidden;
+}
+
+
+.heroSection h1 {
+    font-size: 18px;
+    margin-bottom: 8px !important;
+}
+
+.heroSection h1 br {
+    display: none;
+}
+
+.heroSection p {
+    font-size: 9px;
+    margin-bottom: 0;
+}
+
+.heroSectionText .Btn {
+    width: 69px;
+    height: 26px;
+    font-size: 8px;
+    margin: 4px !important;
+}
+
+
+/*------------------------------------ Mid Section -------------------------------------*/
+
+.midLeft {
+    justify-content: space-between !important;
+    align-content: center !important;
+    align-items: center !important;
+}
+
+.midLeft h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.midLeftImg {
+    width: 246px;
+    height: 315px;
+}
+
+.midRight {
+    justify-content: space-between !important;
+    align-content: center !important;
+    align-items: center !important;
+}
+
+.midRightImg {
+    width: 228px;
+    height: 215px;
+}
+
+.midRight p {
+    font-size: 11px;
+    
+}
+
+.midRight a {
+    width: 134px;
+    height: 31px;
+    margin: 0 auto;
+    font-size: 11px;
+}
+
+/*------------------------------------ Bottom Section-----------------------------------*/
+
+.bottomSectionH h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.bottomSectionH h1 br {
+    display: none;
+}
+
+.bottomSecItems {
+    width: 48%;
+    height: 180px;
+}
+
+.bottomSecText {
+    width: 100%;
+    height: 170px;
+    justify-content: center !important;
+    gap: 5px;
+    padding: 10px 2px 5px 2px !important;
+    margin-bottom: 8px  !important;
+    
+}
+
+.bottomHeadText {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.bottomSecText h4 {
+    font-size: 15px;
+    margin: 0 !important;
+}
+
+.bottomSecText p {
+    font-size: 10px;
+    margin: 0 !important;
+}
+
+.bottomSecText a {
+    height: 5%;
+}
+
+.bottomSecText a i {
+    font-size: 8px;
+}
+
+
+/*------------------------------------- Slider Section -------------------------------------*/
+
+
+/* ------- Heading Part -------- */
+
+.sliderSection a {
+    width: 54px;
+    padding: 2px 4px;
+    font-size: 6px;
+}
+
+.sliderSection h1 {
+    font-size: 25px;
+}
+
+
+/* ------- Slider Part -------- */
+
+
+.sliderItems {
+    gap: 8px;
+}
+
+.arrow {
+    height: 25px;
+    width: 25px;
+    font-size: 6px;
+    transform: translateY(-270%);
+}
+
+.frame {
+    width: 80%;
+    height: 280px;
+}
+
+.imgFrame {
+    width: 100%;
+    height: 48%;
+    gap: 8px;
+}
+
+.frame1, .frame5 {
+    width: 26px;
+    height: 26px;
+}
+
+.frame2, .frame4 {
+    width: 39px;
+    height: 39px;
+}
+
+.frame3 {
+    width: 55px;
+    height: 55px;
+}
+
+.img1, .img2, .img3, .img4, .img5 {
+    width: 100%;
+    height: 100%;
+}
+
+.textFrame {
+    width: 100%;
+    height: 48%;
+}
+.text {
+    width: 100%;
+    height: 100%;
+
+}
+
+.text>p {
+    font-size: 7px;
+    width: 90%;
+    height: 60%;
+}
+
+.textName {
+    font-size: 6px;
+}
+
+.textRoll {
+    font-size: 5px;
+}
+
+/*------------------------------------- Footer Section -------------------------------------*/
+
+footer {
+    height: 296px;
+}
+
+.footerTop {
+    height: 92%;
+}
+
+.footerTopBanner {
+    max-width: 551px;
+    height: 60px;
+    transform: translateY(-50%);
+}
+
+.footerBannerLeft {
+    width: 55%;
+}
+
+.footerBannerLeft h1 {
+    font-size: 18px;
+    width: 100%;
+}
+
+.footerBannerRight {
+    width: 45%;
+    background-size: 30%;
+}
+
+.footerBannerRight a {
+    width: 57px;
+    height: 22px;
+    font-size: 8px;
+    margin-left: 35px;
+}
+
+.footerLogo .footerLogoImg {
+    width: 38px;
+    height: 50px;
+}
+
+.footerLogo .footerLogoText {
+    width: 95px;
+    height: 20px;
+}
+
+.QLinks h4 {
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.QLinks span, .aLinks span, .sLinks span {
+    padding-bottom: 4px;
+}
+
+.hText {
+    font-size: 4px;
+}
+
+.QLinksBorder {
+    width: 26px;
+    height: 2px;
+}
+
+.QLinks ul li, .aLinks ul li, .sLinks ul li {
+    line-height: 1;
+}
+
+.QLinks ul li a {
+    font-size: 8px;
+}
+
+.aLinks h4 {
+    font-size: 10px;
+    margin-bottom: 2px;
+    text-align: start;
+}
+
+.aLinksBorder {
+    width: 26px;
+    height: 2px;
+}
+
+.aLinks ul li a {
+    font-size: 8px;
+}
+
+.sLinks h4 {
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.sLinksBorder {
+    width: 26px;
+    height: 2px;
+}
+
+.search-box {
+    gap: 6px;
+}
+
+.submit-box input {
+    font-size: 8px;
+    padding: 2px 8px;
+    width: 80%;
+    border: 1px solid white;
+}
+
+.submit-box button i {
+    width: 23px;
+    height: 23px;
+    font-size: 18px;
+}
+
+.social-links {
+    gap: 10px;
+}
+
+.social-links a {
+    width: 23px;
+    height: 23px;
+    font-size: 10px;
+}
+
+.social-links a i {
+    font-size: 10px;
+}
+
+.footerBottom p {
+    font-size: 6px;
+}
+
+}
