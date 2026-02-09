@@ -146,6 +146,10 @@ body {
     color: white;
 }
 
+.offcanvas .offcanvas-body .nav-link.active {
+    color: var(--color-pink);
+}
+
 /*------------------------------------------ Hero Section ---------------------------------*/
 
 
